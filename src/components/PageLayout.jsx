@@ -7,6 +7,19 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./PageLayout.css"; 
 
+import LED1 from "../assets/LED1.png";
+import Watch from "../assets/watch.png";
+import Phone from "../assets/Phone.png";
+import LED2 from "../assets/LED2.png";
+import Earbud from "../assets/Earbud.png";
+import Speaker from "../assets/Speaker.png";
+import Camera from "../assets/Camera.png";
+import Drone from "../assets/Drone.png";
+import Laptop from "../assets/Laptop.png";
+import WirelessEarbuds from "../assets/Wireless_earbuds.png";
+import Tablet from "../assets/Tablet.png";
+import Tablet2 from "../assets/Tablet2.png";
+
 // Custom Left Arrow
 const CustomPrevArrow = (props) => {
   const { className, style, onClick } = props;
@@ -79,7 +92,7 @@ function PageLayout() {
         <Slider {...settings}>
           <div className="content">
             <PageContent
-              img={`src/assets/LED1.png`}
+              img={LED1}
               info={'Shell 50" Class LED 4K UHD Smart TV'}
               oldprice={null}
               newprice={85.00}
@@ -90,7 +103,7 @@ function PageLayout() {
           </div>
           <div className="content">
             <PageContent
-              img={`src/assets/Watch.png`}
+              img={Watch}
               info={'Fitboot Inspire Fitness Tracker With Heart Rate Tracking'}
               oldprice={85.0}
               newprice={70.0}
@@ -101,7 +114,7 @@ function PageLayout() {
           </div>
           <div className="content">
             <PageContent
-              img={`src/assets/Phone.png`}
+              img={Phone}
               info={'Smartphone Z Pixel Max 128GB Unlocked'}
               oldprice={85.0}
               newprice={70.0}
@@ -112,7 +125,7 @@ function PageLayout() {
           </div>
           <div className="content">
             <PageContent
-              img={`src/assets/LED2.png`}
+              img={LED2}
               info={'65" Class Nano LED 4K UHD Smart TV'}
               oldprice={85.0}
               newprice={70.0}
@@ -123,7 +136,7 @@ function PageLayout() {
           </div>
           <div className="content">
             <PageContent
-              img={`src/assets/Earbud.png`}
+              img={Earbud.png}
               info={'White Buds Wireless Earbud'}
               oldprice={null}
               newprice={85.0}
@@ -134,7 +147,7 @@ function PageLayout() {
           </div>
           <div className="content">
             <PageContent
-              img={`src/assets/Speaker.png`}
+              img={Speaker}
               info={'SDK Portable Bluetooth Speaker'}
               oldprice={null}
               newprice={85.0}
@@ -145,7 +158,7 @@ function PageLayout() {
           </div>
           <div className="content">
             <PageContent
-              img={`src/assets/Camera.png`}
+              img={Camera}
               info={'Megapixel Waterproof Mini Digital Camera'}
               oldprice={85.0}
               newprice={70.0}
@@ -156,7 +169,7 @@ function PageLayout() {
           </div>
           <div className="content">
             <PageContent
-              img={`src/assets/Drone.png`}
+              img={Drone}
               info={'HKI Tech Quadcopter Drone With 360 Camera & Controller'}
               oldprice={null}
               newprice={70.0}
@@ -167,7 +180,7 @@ function PageLayout() {
           </div>
           <div className="content">
             <PageContent
-              img={`src/assets/Laptop.png`}
+              img={Laptop}
               info={'JP Gaming Laptop 15.6" Laptop 256GB'}
               oldprice={85.0}
               newprice={70.0}
@@ -178,7 +191,7 @@ function PageLayout() {
           </div>
           <div className="content">
             <PageContent
-              img={`src/assets/Wireless_earbuds.png`}
+              img={WirelessEarbuds}
               info={'In-ear Noise Cancelling & Isolating Wireless Earbuds'}
               oldprice={85.0}
               newprice={70.0}
@@ -189,7 +202,7 @@ function PageLayout() {
           </div>
           <div className="content">
             <PageContent
-              img={`src/assets/Tablet.png`}
+              img={Tablet}
               info={'JP - space Tablet 10.4" Wi-Fi 32GB'}
               oldprice={85.0}
               newprice={70.0}
@@ -200,7 +213,7 @@ function PageLayout() {
           </div>
           <div className="content">
             <PageContent
-              img={`src/assets/Tablet2.png`}
+              img={Tablet2}
               info={'Ocean Pro 11 Screen- 12.3" Touch'}
               oldprice={85.0}
               newprice={70.0}
