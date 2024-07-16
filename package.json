@@ -2,7 +2,7 @@
   "name": "resonsive-frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Abhikori.github.io/Responsive_Frontend",
+  "homepage": "https://abhikori.github.io/Responsive_Frontend/",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
